@@ -5,6 +5,9 @@ public class Director {
     private Builder builder;
 
     public void construct(){
-        builder=
+        builder=new ConcreteBuilder();
+        builder.buildPart1();
+        builder.buildPart2();
+        builder.retrieveResult();
     }
 }
